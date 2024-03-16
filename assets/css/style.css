@@ -14,6 +14,15 @@ a{
     text-decoration: none;
 
 }
+.heading-lv2{
+    color: #171100;
+
+font-family: Sen;
+font-size: 38px;
+font-weight: 700;
+line-height: 1.26; /* 126.316% */
+letter-spacing: -0.76px;
+}
 .btn{
     display:inline-block;
     color: #FFF;
@@ -28,11 +37,21 @@ line-height: 50px;
 }
 .main-content{
     width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
+   margin-right: auto;
+   margin-left: auto;
     max-width: calc(100% - 48px);
 }
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient:vertical;
+    overflow:hidden;
+}
+.break-all{;
+word-break:break-all;
+}
 .header.fixed{
+    z-index: 1;
     position: sticky;
     top: -28px;
  
@@ -84,3 +103,329 @@ left:21px;
 
 }
 
+
+.hero{
+padding-top: 56px;
+padding-bottom: 65px;
+background-color: #fffcf4;
+}
+.hero .body{
+    display: flex;
+}
+.hero .media-block{
+    width: 48%;
+    position: relative;
+
+}
+.hero .content-block{
+    width: 52%;
+}
+.hero .media-block .img {
+    width: 470px;
+    height: 685px;
+    object-position: cover;
+    border-radius: 20px;
+}
+.hero-sumary .item {
+    align-items: center;
+}
+.hero .hero-sumary{
+    position: absolute;
+    bottom: 48px;
+    right:0px;
+    border-radius: 12px;
+background: #FFF;
+
+box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+#FFFFFF
+width: 270px;
+height: 244px;
+padding: 24px;
+
+}
+.hero-sumary .item{
+    display: flex;
+}
+.hero-sumary .icon{
+    display: flex;
+    width: 48px;
+height: 48px;
+border-radius: 50%;
+justify-content: center;
+align-items: center;
+background-color: #FFF9E8;
+margin-right: 16px;
+}
+.hero-sumary  .icon2
+{
+    background-color: #FCEFFF;;
+}
+.hero-sumary  .icon3{
+background-color: #EBEAFF;
+}
+.hero-sumary .label {
+    color: #5F5B53;
+
+font-size: 1.4rem;
+font-weight: 400;
+line-height: 1.86; /* 14% */
+}
+.hero-sumary .info{
+    color: #171100;
+
+   
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66;
+}
+.hero-sumary .item+.item{
+    margin-top: 22px;
+}
+.hero .content-block{
+    padding-left: 130px;
+    padding-top: 64px;
+}
+.hero .heading {
+    color: #171100;
+
+font-family: Sen;
+font-size: 5.8rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.17; /* 117.241% */
+letter-spacing: -1.16px;
+
+}
+.hero .desc {
+    padding-top: 22px;
+    color: #5F5B53;
+font-size: 18px;
+line-height: 1.66; /* 166.667% */
+}
+.hero .cta-group{
+    padding-top: 38px;
+    width: 41rem;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.hero .cta-group .btn{
+    display: flex;
+   min-width: 180px;
+    line-height: 64px;
+    border-radius: 32px;
+background: #FFB900;
+align-items:center ;
+justify-content: center;  
+margin-right: 28px; 
+}
+.cta-group .watch-video{
+    display: flex;
+    width: 240px;
+    height: 6.4rem;
+    align-items:center ;
+background: #FFFCF4;
+border: none;
+
+}
+.cta-group .watch-video .icon{
+   display: flex;
+    width: 40px;
+height: 40px;
+background-color: whitesmoke;
+margin-right: 14px;
+justify-content: center ;
+align-items: center;
+border-radius: 50%;
+}
+.cta-group .text{
+    display: flex;
+    width: 148px;
+    height: 3rem;
+    color: #171100;
+font-size: 16px;
+font-weight: 600;
+align-items: center;
+justify-content: start;
+
+}
+p .desc{
+    padding-top: 48px;
+    color: #5F5B53;
+font-size: 18px;
+font-weight: 400;
+line-height: 1.67; /* 166.667% */
+
+}
+.desc1 strong {
+    color: #171100;
+
+font-family: Sen;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 54px; /* 122.727% */
+padding-left: 15px;
+}
+.content-block .box{
+   
+    color: #5F5B53;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.66; /* 166.667% */
+    display: flex;
+    width: 361px;
+    height: 5.4rem;
+    align-items:center;
+    justify-content: start;
+}
+ .Students{
+    display: flex;
+    width: 17.3rem;
+    height: 5.4rem;
+    margin-right: 28px;
+    align-items: last baseline;
+    justify-content: start;
+ }
+.courses{
+    width: 16rem;
+    height: 5.4rem;
+   
+    align-items: last baseline;
+    justify-content:start;
+    display: flex;
+
+}
+.desc1 .space{
+    margin-right: 15px;
+
+}
+/* popular */
+.popular{
+    padding: 65px 0px;
+    margin-top: 135px;
+}
+.popular p.desc{
+    width: 45.8rem;
+    height: 6rem;
+    margin-top: 16px;
+    color: #5F5B53;
+font-family: Poppins;
+font-size: 1.8rem;
+line-height: 1.66; /* 166.667% */
+}
+.popular-top{
+    display: flex;
+justify-content: space-between;
+}
+.popular-top .control-btn{
+    display: flex;
+justify-content: center;
+align-items: center;
+    background-color: transparent;
+    width: 40px;
+height: 40px;
+border-radius: 40px;
+color: #FFB900;
+border: 1px solid #FFB900;
+
+}
+.popular .control-btn:hover{
+    background-color: #FFB900;
+    color:#FFF;
+   
+}
+.popular-top .controls{
+    display: flex;
+   justify-content: space-between;
+width: 9.8rem;
+}
+.course-list{
+    display: flex;
+    margin-top: 55px;
+}
+.course-list .course-item .info{
+    margin-top: 16px;
+    margin-right: 22px;
+    margin-left: 22px;
+
+
+}
+.course-list .course-item{
+width: 37rem;
+margin-right: 32px;
+flex: 1;
+
+
+
+}
+.course-list .title{
+    color: #171100;
+font-size: 1.8rem;
+font-weight: 600;
+line-height: 1.66; /* 166.667% */
+}
+.course-list .head{
+    display: flex;
+    justify-content: space-between;
+}
+.course-item .star{
+  
+    width: 1.8rem;
+height: 1.8rem;
+}
+.course-item .value{
+    color: #FEA31B;
+margin-left: 6px;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.75; /* 175% */
+}
+.course-list p.desc{
+    width: 32.6rem;
+    margin-top: 6px;
+    color: #5F5B53;
+font-size: 14px;
+line-height: 1.85; /* 185.714% */
+}
+.course-list .rating{
+    display: flex;
+    align-items: center;
+}
+.course-list .foot{
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 22px;
+    margin-right: 22px;
+    margin-left: 22px;
+}
+.course-list .foot .price{
+    color: #171100;
+font-size: 18px;
+font-weight: 600;
+line-height: 1.66; /* 166.667% */
+}
+.course-list .foot .btn{
+    display: flex;
+    border-radius: 25px;
+background: #171100;
+width: 11.8rem;
+height: 5rem;
+align-items: center;
+justify-content: center;
+}
+.course-list .foot .btn:hover{
+    border-radius: 25px;
+background: #FFB900;
+}
+.course-list .item .thumb{
+    width: 100%;
+    border-radius: 12px 12px 0px 0px;
+    background-size: contain;
+    width: 37rem;
+height: 27.8 rem;
+}
